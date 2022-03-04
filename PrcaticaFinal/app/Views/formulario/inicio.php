@@ -3,7 +3,8 @@
 
 <h2 class="titulo">Registro compra</h2>
 
-<form method="POST" action="<?php echo base_url() ?>/insertar" class="formulario" style="background-color:white;">
+	<form method="POST" action="./FControler/insertar" class="formulario" style="background-color:white;">
+
 	
 	<label class="label" for="nombre"> Nombre: </label>
 	<input type="text" class="input" name="nombre" id="nombre" required>

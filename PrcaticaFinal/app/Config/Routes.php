@@ -31,9 +31,9 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/formulario', 'FControler::index');
-$routes->get('/formulario2', 'FControler::menu');
+$routes->get('/', 'FControler::index');
+//$routes->get('/formulario', 'FControler::index');
+//$routes->get('/formulario2', 'FControler::menu');
 
 /*
  * --------------------------------------------------------------------
